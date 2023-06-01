@@ -24,7 +24,7 @@ variable private_cidr {
 
 variable azs {
   type        = list
-  default     = ["us-east-1a","us-east-1b"]
+  default     = ["us-east-2a","us-east-2b"]
   description = "availability zones"
 }
 
@@ -37,7 +37,7 @@ variable backend_instance_name {
 
 variable backend_ami {
   type        = string
-  default     = "ami-0715c1897453cabd1"
+  default     = "ami-01107263728f3bef4"
   description = "backend ami"
 }
 
